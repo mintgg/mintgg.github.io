@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "name": "Henry",
+      "email": "henry@gmail.com",
+      "id": 1,
+      "age": 30,
+      "companyId": 1
+    },
+    {
+      "name": "Bucky",
+      "email": "bucky@gmail.com",
+      "id": 2,
+      "age": 30,
+      "companyId": 2
+    },
+    {
+      "name": "Emily",
+      "email": "emily@gmail.com",
+      "id": 3,
+      "age": 30,
+      "companyId": 3
+    },
+    {
+      "name": "Pink",
+      "email": "pink@gmail.com",
+      "id": 4,
+      "age": 30,
+      "companyId": 3
+    },
+    {
+      "name": "jyl",
+      "email": "2878.55075@qq.com",
+      "id": 5
+    },
+    {
+      "name": "sadasd",
+      "phone": "asdas",
+      "email": "dasda",
+      "edu": "1",
+      "school": "1",
+      "pro": "1",
+      "id": 6
+    },
+    {
+      "name": "阿达",
+      "phone": "2313213",
+      "email": "快就到发个链接",
+      "edu": "圣诞节否",
+      "school": "欧赔",
+      "pro": "数据库放得开",
+      "id": 7
+    },
+    {
+      "name": "酱色",
+      "phone": "123456",
+      "email": "加快金黄色的",
+      "edu": "hsdf",
+      "school": "甲亢",
+      "pro": "硕大的发放",
+      "id": 8
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple is good!"
+    },
+    {
+      "id": 2,
+      "name": "msi",
+      "description": "msi is good!"
+    },
+    {
+      "id": 3,
+      "name": "tutu",
+      "description": "tutu is good!"
+    }
+  ]
+}
