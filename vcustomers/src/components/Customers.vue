@@ -41,11 +41,12 @@ export default {
   methods:{
   	fetchCustomers(){
   		
-  		this.$http.get("http://localhost:3000/users")
+  		this.$http.get("http://www.serendipity.wiki/vuegl/db.json")
   		.then(function(response){
 
   			console.log(response);
-  			this.customers = response.body
+  			this.customers = response.body.users;
+
   		})
   	},
   },

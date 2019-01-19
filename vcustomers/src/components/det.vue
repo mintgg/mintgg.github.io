@@ -1,6 +1,6 @@
 <template>
   <div class="det container">
-   <h1 class="page-header">{{customer.name}}</h1>
+   <h1 class="page-header" v-if="customer[id-1]">{{customer[id-1].name}}</h1>
   
   </div>
 </template>
@@ -10,18 +10,21 @@ export default {
   name: 'det',
   data () {
     return {
-      customer:""
+      customer:[],
+     id:0
     }
   },
   methods:{
     fetchCustomers(id){
   		
-  		this.$http.get("http://localhost:3000/users/"+id)
+  		this.$http.get("http://www.serendipity.wiki/vuegl/db.json")
   		.then(function(response){
 
   			console.log(response);
-  			this.customer = response.body
-  		})
+  			this.customer = response.body.users;
+  			console.log(this.customer);
+  		});
+  		this.id=id;
   	},
   },
   created(){

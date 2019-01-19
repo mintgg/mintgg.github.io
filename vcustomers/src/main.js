@@ -16,7 +16,7 @@ Vue.use(VueResource)
 const router = new VueRouter({
 
 	mode:"history",
-	base:"/nr/",
+	base:"/",
 	routes:[
 
 		{path:"/",component:Customers},

@@ -55,7 +55,7 @@ export default {
           school:this.customer.school,
           pro:this.customer.pro
         }
-        this.$http.post("http://localhost:3000/users",newCustomer)
+        this.$http.post("http://www.serendipity.wiki/vuegl/db.json",newCustomer)
         .then(function(response){
           // console.log(response);
           this.$router.push({path:"/"});
